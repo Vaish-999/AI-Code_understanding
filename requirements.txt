@@ -1,0 +1,23 @@
+# AI Orchestration
+langchain
+langchain-community
+langchain-chroma
+langchain_huggingface
+
+# Vector Database & Embeddings
+chromadb
+sentence-transformers
+
+# Code Parsing
+tree-sitter
+tree-sitter-languages
+
+# Utilities
+tqdm
+python-dotenv
+
+
+ollama
+fastapi
+uvicorn 
+npm

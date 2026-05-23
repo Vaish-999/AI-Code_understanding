@@ -1,0 +1,15 @@
+# Environment variables (Secrets)
+.env
+
+# Python Virtual Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node/React dependencies
+node_modules/
+dist/
+
+# Local Test Repositories (if you don't want them on GitHub)
+test_repo/
