@@ -40,7 +40,17 @@ The application is built using a modern decoupled architecture:
 * [Ollama](https://ollama.com/) (For running local models)
 
 ### 1. Repository Setup & Virtual Environment
+
 Clone the repository and navigate to the project root:
 ```bash
 git clone [https://github.com/Vaish-999/AI-Code_understanding.git](https://github.com/Vaish-999/AI-Code_understanding.git)
 cd "AI Code Understanding System Design"
+
+# Set up and activate your Python virtual environment:
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+
+
+
+
