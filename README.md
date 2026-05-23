@@ -42,6 +42,7 @@ The application is built using a modern decoupled architecture:
 ### 1. Repository Setup & Virtual Environment
 
 Clone the repository and navigate to the project root:
+
 ```bash
 git clone [https://github.com/Vaish-999/AI-Code_understanding.git](https://github.com/Vaish-999/AI-Code_understanding.git)
 cd "AI Code Understanding System Design"
@@ -49,7 +50,38 @@ cd "AI Code Understanding System Design"
 # Set up and activate your Python virtual environment:
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
 
+### 2. Backend Installation & Configuration
+Install the required Python dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+Create a .env file in the root folder of your project to securely hold your credentials:
+```bash
+HF_TOKEN=your_huggingface_api_token_here
+```
+Start your FastAPI server:
+
+```bash
+python backend/main.py
+```
+The backend service will initialize and run locally at http://localhost:8000.
+
+
+### 3. Frontend Installation & Setup
+Open a separate terminal window, navigate to your frontend directory, install the Node packages, and launch the Vite development server:
+
+```bash
+npm install
+npm run dev
+```
+
+ Open your browser and navigate to the local URL provided by Vite (typically http://localhost:5173).
+
+📜 License
+This project is open-source and available under the MIT License.
 
 
 
